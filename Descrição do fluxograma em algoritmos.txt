@@ -10,7 +10,7 @@ algoritmo "DataDoEvento"
 // Seção de Declarações 
 // Criar algoritmo "Data Do Evento"
 
-var
+let
 
 // secção de variaveis
          dataHoje,   dataDoEvento: Inteiro (data)
@@ -46,7 +46,7 @@ algoritmo "algoritmo palestrantes"
 
 // Criar algoritmo "Palestrantes"
 
-var
+let
    
          nomePalestrante1, nomePalestrante2, listaDePalestrantes: caracter
 
@@ -80,7 +80,7 @@ algoritmo "Data de nascimento"
 // colocar estrutura condicional se / senão
 // implantar estrutura condicionar contador = 100 inscrições (parar)
 
-var
+let
 // secção de variaveis
          dataHoje,   dataDeNascimento: Inteiro (Data)
          numeroDataNascimento: Inteiro
@@ -117,7 +117,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 algoritmo "Nome do Palestrante"   
 
-var
+let
         listaDeParticipantes : caracter
         
 inicio
