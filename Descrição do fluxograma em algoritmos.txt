@@ -12,7 +12,7 @@ algoritmo "DataDoEvento"
 
 let
 
-// secção de variaveis
+// secção de variaveis.
          dataHoje,   dataDoEvento: Inteiro (data)
 
 inicio
