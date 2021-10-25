@@ -21,7 +21,7 @@ inicio
          Leia(dataHoje)
          Escreva("data do evento")
          Leia(dataDoEvento)
-                           Se (dataHoje <- dataDoEvento) entao -> continua
+                           Se (dataHoje < dataDoEvento) entao -> continua
                            Senao
                               Escreva("data incorreta")
                            FimSe
