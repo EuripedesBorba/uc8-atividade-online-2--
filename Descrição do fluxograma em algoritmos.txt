@@ -1,0 +1,140 @@
+
+    // Criação de algoritmos "Programa Eventos data"
+
+// Função : criar sistema de programação de eventos
+// Autor : Euripedes Jacob
+// Data : 24/10/2021
+ 
+
+algoritmo "DataDoEvento"
+// Seção de Declarações 
+// Criar algoritmo "Data Do Evento"
+
+var
+
+// secção de variaveis
+         dataHoje,   dataDoEvento: Inteiro (data)
+
+inicio
+//secção de Comandos 
+         Escreva("informe data hoje")
+         Leia(dataHoje)
+         Escreva("data do evento")
+         Leia(dataDoEvento)
+                           Se (dataHoje <- dataDoEvento) entao -> continua
+                           Senao
+                              Escreva("data incorreta")
+                           FimSe
+
+fimalgoritmo
+
+Execução
+
+Informe: data de hoje
+informe: data do evento
+Condicional:
+ se dataHoje menor que dataEvento "data aceita", segue
+ se dataHoje maior ou iqual que dataEvento "data incorreta" 
+
+*** Fim da execução.
+*** Feche esta janela para retornar ao Visualg.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+algoritmo "algoritmo palestrantes"
+
+// Criar algoritmo "Palestrantes"
+
+var
+   
+         nomePalestrante1, nomePalestrante2, listaDePalestrantes: caracter
+
+inicio
+
+         Escreva("nome do palestrante 1: ")
+         Leia(nomePalestrante1)
+         Escreva("nome do palestrante 2: ")
+         leia(nomePalestrante2)
+             listaDePalestrantes <- nomePalestrante1 + nomePalestrante2
+                         escreval("Palestrantes : " + (listaDePalestrantes))
+
+Execução 
+
+nome do palestrante 1: Eurípedes Jacob
+nome do palestrante 2: Karla Poleski
+Lista de Palestrantes: Eurípedes Jacob, Karla Poleski
+
+*** Fim da execução.
+*** Feche esta janela para retornar ao Visualg.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+"Inscrições de participanteNúmero participantes = 100"
+
+algoritmo "Data de nascimento"
+
+// colocar primeiro data de nascimento
+// colocar estrutura condicional se / senão
+// implantar estrutura condicionar contador = 100 inscrições (parar)
+
+var
+// secção de variaveis
+         dataHoje,   dataDeNascimento: Inteiro (Data)
+         numeroDataNascimento: Inteiro
+inicio
+//secção de Comandos 
+         Escreva("informe data de Hoje")
+         Leia(dataHoje)
+         Escreva("data de nascimento")
+         Leia(dataDoNascimento)
+                           Se (dataHoje - dataDoNascimento)> 18 entao -> continua
+                           Senao
+                              EscrevaL("Inscrição só para maiores de 18 anos")
+                           FimSe
+ //incluir estrura condicional contador 100 inscritos encerrar
+         numeroDataNascimento <  dataDeNascimento.length
+         
+                	   Enquanto(numeroDeNascimento < 100) faca -> continua
+                           FimEnquanto
+                  	      EscrevaL("Inscrições incerradas.")
+fimalgoritmo
+
+Execução:
+Informe: data de hoje
+informe: data de nascimento
+Condicional 1 = se maior que 18 anos "data aceita", segue
+                se menor de  18 anos "Inscrição só para maiores de 18 anos"
+Condicional 2 = até 100 datas de nascimento válidas continua, mais que 100 "incrições encerradas"
+ 
+*** Fim da execução.
+*** Feche esta janela para retornar ao Visualg.
+  
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+algoritmo "Nome do Palestrante"   
+
+var
+        listaDeParticipantes : caracter
+        
+inicio
+
+         Escreva("Nome completo do Participante :")
+         Leia(listaDeParticipantes)
+         EscrevaL( Inscrição efetivada com sucesso)  
+fimalgoritmo
+
+Execução:
+Informe: Nome completo do Participante
+Infome: Inscrição efetivada
+*** Fim da execução.
+*** Feche esta janela para finalizar.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
